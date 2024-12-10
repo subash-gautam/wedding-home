@@ -3,7 +3,9 @@ import React from "react";
 function FeedbackSection() {
     return (
         <div className="bg-blue-500 flex flex-col md:flex-row">
-            <div className="bg-pink-500 p-10 md:w-1/2">
+            <div
+                className="bg-pink-500 p-10 md:w-1/2 my-[-20]"
+                style={{ backgroundImage: "url('/Rectangle 53.png')" }}>
                 <h2 className="text-2xl font-bold text-white mb-4">
                     Client's Feedback
                 </h2>
@@ -13,7 +15,6 @@ function FeedbackSection() {
                     its layout."
                 </p>
                 <p className="text-white">- John Doe</p>
-
                 <div className="flex mt-4">
                     <img
                         src="https://via.placeholder.com/50"
