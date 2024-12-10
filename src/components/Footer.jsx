@@ -7,15 +7,27 @@ function Footer() {
                 <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                         <div>
-                            <img
-                                src="#"
-                                className="mr-5 h-6 sm:h-9"
-                                alt="logo"
-                            />
-                            <p className="max-w-xs mt-4 text-sm text-gray-600">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Voluptas, accusantium.
-                            </p>
+                            <div>
+                                <p className="font-medium">Quick Links</p>
+                                <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                                    <a className="hover:opacity-75" href>
+                                        {" "}
+                                        About Us{" "}
+                                    </a>
+                                    <a className="hover:opacity-75" href>
+                                        {" "}
+                                        FAQ{" "}
+                                    </a>
+                                    <a className="hover:opacity-75" href>
+                                        {" "}
+                                        Contact Us{" "}
+                                    </a>
+                                    <a className="hover:opacity-75" href>
+                                        {" "}
+                                        About Us{" "}
+                                    </a>
+                                </nav>
+                            </div>
                             <div className="flex mt-8 space-x-6 text-gray-600">
                                 <a
                                     className="hover:opacity-75"
@@ -107,74 +119,37 @@ function Footer() {
                         </div>
                         <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
                             <div>
-                                <p className="font-medium">Company</p>
+                                <p className="font-medium">Contact</p>
                                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
                                     <a className="hover:opacity-75" href>
                                         {" "}
-                                        About{" "}
+                                        061-123456, 01-1234567{" "}
                                     </a>
                                     <a className="hover:opacity-75" href>
                                         {" "}
-                                        Meet the Team{" "}
-                                    </a>
-                                    <a className="hover:opacity-75" href>
-                                        {" "}
-                                        History{" "}
-                                    </a>
-                                    <a className="hover:opacity-75" href>
-                                        {" "}
-                                        Careers{" "}
+                                        Pokhara, Nepal <br /> 37000{" "}
                                     </a>
                                 </nav>
                             </div>
                             <div>
-                                <p className="font-medium">Services</p>
+                                <p className="font-medium">Gallery</p>
                                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
                                     <a className="hover:opacity-75" href>
                                         {" "}
-                                        1on1 Coaching{" "}
+                                        Image Gallery{" "}
                                     </a>
                                     <a className="hover:opacity-75" href>
                                         {" "}
-                                        Company Review{" "}
-                                    </a>
-                                    <a className="hover:opacity-75" href>
-                                        {" "}
-                                        Accounts Review{" "}
-                                    </a>
-                                    <a className="hover:opacity-75" href>
-                                        {" "}
-                                        HR Consulting{" "}
-                                    </a>
-                                    <a className="hover:opacity-75" href>
-                                        {" "}
-                                        SEO Optimisation{" "}
+                                        Video Gallery{" "}
                                     </a>
                                 </nav>
                             </div>
                             <div>
-                                <p className="font-medium">Helpful Links</p>
+                                <p className="font-medium">About Us</p>
                                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
                                     <a className="hover:opacity-75" href>
                                         {" "}
-                                        Contact{" "}
-                                    </a>
-                                    <a className="hover:opacity-75" href>
-                                        {" "}
-                                        FAQs{" "}
-                                    </a>
-                                    <a className="hover:opacity-75" href>
-                                        {" "}
-                                        Live Chat{" "}
-                                    </a>
-                                </nav>
-                            </div>
-                            <div>
-                                <p className="font-medium">Legal</p>
-                                <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                                    <a className="hover:opacity-75" href>
-                                        {" "}
-                                        Privacy Policy{" "}
+                                        Contact Us{" "}
                                     </a>
                                     <a className="hover:opacity-75" href>
                                         {" "}
@@ -182,11 +157,7 @@ function Footer() {
                                     </a>
                                     <a className="hover:opacity-75" href>
                                         {" "}
-                                        Returns Policy{" "}
-                                    </a>
-                                    <a className="hover:opacity-75" href>
-                                        {" "}
-                                        Accessibility{" "}
+                                        Lorem{" "}
                                     </a>
                                 </nav>
                             </div>

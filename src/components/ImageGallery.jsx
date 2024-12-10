@@ -16,11 +16,11 @@ function ImageGallery() {
     return (
         <div className="bg-blue-500">
             <div className="container mx-auto py-10">
-                <div className="container mx-auto py-10 flex justify-between items-center">
+                <div className="container py-10 flex justify-between items-center">
                     <h2 className="text-2xl font-bold text-white">
                         Image Gallery
                     </h2>
-                    <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded">
+                    <button className=" bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded">
                         View All
                     </button>
                 </div>
